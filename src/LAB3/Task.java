@@ -3,6 +3,10 @@ package LAB3;
 import java.time.LocalDateTime;
 
 public class Task {
+    private String taskName;
+    public Task(){
+    }
+
 
     public enum Category {
         NEW, IN_PROGRESS, DONE
